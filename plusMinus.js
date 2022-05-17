@@ -20,7 +20,9 @@ function plusMinus(arr) {
     let positiveNumbers = arr.filter(number => number > 0).length / arr.length;
     let negativeNumbers = arr.filter(number => number < 0).length / arr.length;
     let zeroNumbers = arr.filter(number => number == 0).length / arr.length;
-
+    /* For HackerRank 
+    console.log(positiveNumbers.toFixed(6) + "\n" + negativeNumbers.toFixed(6) + "\n" + zeroNumbers.toFixed(6))
+    */
     return (positiveNumbers.toFixed(6) + "\n" + negativeNumbers.toFixed(6) + "\n" + zeroNumbers.toFixed(6))
  
 }
